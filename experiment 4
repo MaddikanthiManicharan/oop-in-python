@@ -1,0 +1,12 @@
+class Demo:
+    def additon(self,a,b):
+        print(a+b)
+    def subraction(self,a,b):
+        print(a-b)
+    def multilpy(self,a,b):
+        print(a*b)
+        print(b*a)
+d1= Demo()
+d1.additon(10,20)
+d1.subraction(10,40)
+d1.multilpy(3,10)                
