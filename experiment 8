@@ -1,0 +1,13 @@
+class Demo:
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+    def show(self):
+        print(self.name)
+        print(self.age)    
+d1=Demo("Naruto",31)
+d1.show()
+d2=Demo("Sasuke",31)
+d2.show()
+d3=Demo("Sakura",31)
+d3.show()
