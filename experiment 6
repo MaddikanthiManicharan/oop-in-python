@@ -1,0 +1,9 @@
+class student:
+    name="Ram Krishna"
+    age=27
+class csestudent(student):
+    branch="DS"
+fg=csestudent
+print(fg.name)
+print(fg.age)
+print(fg.branch)
