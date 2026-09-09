@@ -1,0 +1,13 @@
+class animal:
+    def eat(self):
+        print("animal eat")
+class mammals(animal):
+    def sleep(self): 
+        print("mammals sleep")
+class dog(mammals):
+    def sound(self):
+        print("dog sound")
+d=dog()
+d.sound()
+d.sleep()
+d.eat()
